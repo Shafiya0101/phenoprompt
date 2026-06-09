@@ -1,0 +1,338 @@
+{
+  "0": {
+    "cluster_id": 0,
+    "n_notes": 24,
+    "top_entities": [
+      {
+        "entity": "swelling",
+        "score": 31.1025,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "diabetics",
+        "score": 13.6896,
+        "prevalence_cluster": 0.042
+      },
+      {
+        "entity": "dyspneic",
+        "score": 13.6896,
+        "prevalence_cluster": 0.042
+      },
+      {
+        "entity": "lisinopril",
+        "score": 13.6896,
+        "prevalence_cluster": 0.042
+      },
+      {
+        "entity": "ibuprofen",
+        "score": 10.8488,
+        "prevalence_cluster": 0.083
+      },
+      {
+        "entity": "leukemia",
+        "score": 6.8448,
+        "prevalence_cluster": 0.042
+      },
+      {
+        "entity": "pyrexia",
+        "score": 6.8448,
+        "prevalence_cluster": 0.042
+      },
+      {
+        "entity": "edema",
+        "score": 3.7646,
+        "prevalence_cluster": 0.208
+      },
+      {
+        "entity": "biopsy",
+        "score": 3.7123,
+        "prevalence_cluster": 0.333
+      },
+      {
+        "entity": "cough",
+        "score": 3.5318,
+        "prevalence_cluster": 0.083
+      }
+    ]
+  },
+  "1": {
+    "cluster_id": 1,
+    "n_notes": 38,
+    "top_entities": [
+      {
+        "entity": "fracture",
+        "score": 31.2801,
+        "prevalence_cluster": 0.605
+      },
+      {
+        "entity": "hyperthyroidism",
+        "score": 8.6461,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "ultrasound",
+        "score": 7.7934,
+        "prevalence_cluster": 0.395
+      },
+      {
+        "entity": "swelling",
+        "score": 3.3221,
+        "prevalence_cluster": 0.211
+      },
+      {
+        "entity": "osteoporosis",
+        "score": 2.882,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "mri",
+        "score": 2.7094,
+        "prevalence_cluster": 0.237
+      },
+      {
+        "entity": "fever",
+        "score": 2.2465,
+        "prevalence_cluster": 0.132
+      },
+      {
+        "entity": "surgery",
+        "score": 1.8694,
+        "prevalence_cluster": 0.237
+      },
+      {
+        "entity": "obese",
+        "score": 1.441,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "computed tomography",
+        "score": 1.2888,
+        "prevalence_cluster": 0.158
+      }
+    ]
+  },
+  "2": {
+    "cluster_id": 2,
+    "n_notes": 10,
+    "top_entities": [
+      {
+        "entity": "carcinoma",
+        "score": 36.2657,
+        "prevalence_cluster": 0.9
+      },
+      {
+        "entity": "biopsy",
+        "score": 7.7959,
+        "prevalence_cluster": 0.7
+      },
+      {
+        "entity": "ct scan",
+        "score": 7.3011,
+        "prevalence_cluster": 0.4
+      },
+      {
+        "entity": "cancer",
+        "score": 4.6936,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "hypertension",
+        "score": 2.5273,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "surgical",
+        "score": 2.0076,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "surgery",
+        "score": 1.369,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "computed tomography",
+        "score": 0.9217,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "magnetic resonance",
+        "score": 0.6705,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "mri",
+        "score": 0.2693,
+        "prevalence_cluster": 0.1
+      }
+    ]
+  },
+  "3": {
+    "cluster_id": 3,
+    "n_notes": 11,
+    "top_entities": [
+      {
+        "entity": "cancer",
+        "score": 37.6063,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "endoscopy",
+        "score": 6.4004,
+        "prevalence_cluster": 0.273
+      },
+      {
+        "entity": "carcinoma",
+        "score": 6.1193,
+        "prevalence_cluster": 0.273
+      },
+      {
+        "entity": "computed tomography",
+        "score": 3.1719,
+        "prevalence_cluster": 0.364
+      },
+      {
+        "entity": "biopsy",
+        "score": 2.8307,
+        "prevalence_cluster": 0.364
+      },
+      {
+        "entity": "pneumonia",
+        "score": 2.7153,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "colonoscopy",
+        "score": 2.1335,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "surgery",
+        "score": 1.9264,
+        "prevalence_cluster": 0.364
+      },
+      {
+        "entity": "malignancy",
+        "score": 1.4223,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "infection",
+        "score": 0.6788,
+        "prevalence_cluster": 0.091
+      }
+    ]
+  },
+  "4": {
+    "cluster_id": 4,
+    "n_notes": 51,
+    "top_entities": [
+      {
+        "entity": "surgery",
+        "score": 8.3212,
+        "prevalence_cluster": 0.608
+      },
+      {
+        "entity": "surgical",
+        "score": 5.7141,
+        "prevalence_cluster": 0.373
+      },
+      {
+        "entity": "mri",
+        "score": 5.4951,
+        "prevalence_cluster": 0.353
+      },
+      {
+        "entity": "migraine",
+        "score": 2.1474,
+        "prevalence_cluster": 0.02
+      },
+      {
+        "entity": "swelling",
+        "score": 1.757,
+        "prevalence_cluster": 0.118
+      },
+      {
+        "entity": "weakness",
+        "score": 1.6993,
+        "prevalence_cluster": 0.098
+      },
+      {
+        "entity": "headache",
+        "score": 1.5612,
+        "prevalence_cluster": 0.059
+      },
+      {
+        "entity": "computed tomography",
+        "score": 1.1972,
+        "prevalence_cluster": 0.137
+      },
+      {
+        "entity": "back pain",
+        "score": 1.0748,
+        "prevalence_cluster": 0.039
+      },
+      {
+        "entity": "anorexia",
+        "score": 1.0737,
+        "prevalence_cluster": 0.02
+      }
+    ]
+  },
+  "5": {
+    "cluster_id": 5,
+    "n_notes": 10,
+    "top_entities": [
+      {
+        "entity": "headache",
+        "score": 48.8196,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "confusion",
+        "score": 16.4275,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "stroke",
+        "score": 15.9243,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "migraine",
+        "score": 10.9517,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "weakness",
+        "score": 6.2275,
+        "prevalence_cluster": 0.4
+      },
+      {
+        "entity": "vomiting",
+        "score": 4.4803,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "ct scan",
+        "score": 4.2382,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "computed tomography",
+        "score": 4.0812,
+        "prevalence_cluster": 0.5
+      },
+      {
+        "entity": "nausea",
+        "score": 3.3596,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "fatigue",
+        "score": 2.5273,
+        "prevalence_cluster": 0.1
+      }
+    ]
+  }
+}
