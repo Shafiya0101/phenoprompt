@@ -1,176 +1,192 @@
 """
-PhenoPrompt — Streamlit query interface.
+PhenoPrompt — Clinical RAG (Streamlit app).
 
-Deploys the Stage 3 prompt-based phenotype query on top of the artifacts produced by
-Stage 1 (medkit NER) and Stage 2 (embedding + clustering). Commit those output files into
-the repo under  data/phenoprompt/  and Streamlit Cloud will serve this page.
+Ask a clinical question; the app retrieves the most relevant notes (entity-augmented) and
+Mistral writes a grounded answer that cites the source notes. Reads the committed Stage 1/2
+outputs under data/phenoprompt/.
 
-Run locally:   streamlit run phenoprompt_app.py
+Deploy on Streamlit Cloud:
+  - main file: rag_app.py
+  - add MISTRAL_API_KEY in the app's Settings -> Secrets
+Run locally:
+  export MISTRAL_API_KEY=...   &&   streamlit run rag_app.py
 """
-import json
-import re
+import os, re, math, textwrap
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import streamlit as st
 
-# ----------------------------------------------------------------------------
-# Where the committed Stage 1/2 outputs live (relative to the repo root).
-# ----------------------------------------------------------------------------
 DATA_DIR   = Path(__file__).parent / "data" / "phenoprompt"
 STAGE1_DIR = DATA_DIR / "stage1_outputs"
 STAGE2_DIR = DATA_DIR / "stage2_outputs"
 
-TOP_K, ALPHA, MIN_SCORE = 3, 0.7, 1e-6
+CHAT_MODEL = "mistral-small-latest"
+TOP_K_DEFAULT = 5
 
 SYNONYMS = {
     "type 2 diabetes": ["diabetes"], "t2dm": ["diabetes"], "diabetic": ["diabetes"],
-    "renal": ["chronic kidney disease", "renal failure", "kidney"],
-    "kidney": ["chronic kidney disease", "renal failure"], "ckd": ["chronic kidney disease"],
-    "hf": ["heart failure"], "chf": ["heart failure"], "cardiac failure": ["heart failure"],
-    "fluid overload": ["edema"], "swelling": ["edema"], "sob": ["shortness of breath"],
-    "breathless": ["shortness of breath"], "diuretic": ["furosemide"],
-    "lung infection": ["pneumonia"], "chest infection": ["pneumonia"],
-    "heart attack": ["myocardial infarction"], "high blood pressure": ["hypertension"],
+    "renal": ["kidney", "renal failure", "chronic kidney disease"],
+    "kidney": ["renal failure", "chronic kidney disease"], "ckd": ["chronic kidney disease"],
+    "hf": ["heart failure"], "chf": ["heart failure"], "sob": ["shortness of breath"],
+    "breathless": ["shortness of breath"], "fluid overload": ["edema"], "swelling": ["edema"],
+    "diuretic": ["furosemide"], "lung infection": ["pneumonia"], "chest infection": ["pneumonia"],
+    "respiratory infection": ["pneumonia"], "infection": ["pneumonia"],
 }
 
+SYSTEM = (
+    "You are a careful clinical informatics assistant answering questions about a cohort of "
+    "patient notes. Use ONLY the numbered notes provided as context. Cite the notes you use "
+    "with their id in square brackets like [note 1234]. If the notes do not contain enough "
+    "information to answer, say so plainly. Do NOT invent diagnoses, drugs, values, or guidance."
+)
 
-class PhenoSpace:
-    """Queryable index over Stage 2 phenotype clusters (enrichment-weighted retrieval)."""
 
-    def __init__(self, stage1_dir, stage2_dir):
-        s1, s2 = Path(stage1_dir), Path(stage2_dir)
-        self.profiles = json.loads((s2 / "phenotype_profiles.json").read_text())
-        self.assign   = pd.read_csv(s2 / "cluster_assignments.csv", dtype={"note_id": str})
-        self.count    = pd.read_csv(s1 / "entity_count_matrix.csv", index_col=0)
-        self.count.index = self.count.index.astype(str)
-        self.vocab    = list(self.count.columns)
-        self.mentions = pd.read_csv(s1 / "entity_mentions.csv", dtype={"note_id": str})
-        nc = s1 / "notes.csv"
-        self.note_texts = (dict(zip(pd.read_csv(nc, dtype={"idx": str})["idx"],
-                                    pd.read_csv(nc, dtype={"idx": str})["note"]))
-                           if nc.exists() else {})
-        self.cluster_ids = sorted(int(c) for c in self.profiles)
-        self.corpus_prev = (self.count > 0).mean()
-        self.prev_vec = {}
-        for cl in self.cluster_ids:
-            ids = self.assign.loc[self.assign.cluster == cl, "note_id"].values
-            self.prev_vec[cl] = (self.count.reindex(ids) > 0).mean().reindex(self.vocab).fillna(0).values
-
-    def extract_query_entities(self, query):
-        q = query.lower(); hits = {}
-        for e in self.vocab:
-            if e in q: hits[e] = max(hits.get(e, 0.0), 1.0)
-        for syn, targets in SYNONYMS.items():
-            if syn in q:
-                for t in targets:
-                    if t in self.vocab: hits[t] = max(hits.get(t, 0.0), 0.9)
-        for tok in re.findall(r"[a-z]+", q):
-            if len(tok) < 4: continue
-            for e in self.vocab:
-                if tok in e.split(): hits[e] = max(hits.get(e, 0.0), 0.7)
-        return hits
-
-    def retrieve(self, query, top_k=TOP_K, alpha=ALPHA):
-        qents = self.extract_query_entities(query)
-        if not qents: return [], qents
-        vidx = {e: i for i, e in enumerate(self.vocab)}
-        cp   = self.corpus_prev.reindex(self.vocab).fillna(0).values
-        qvec = np.array([qents.get(e, 0.0) for e in self.vocab], dtype=float)
-        qn   = qvec / (np.linalg.norm(qvec) + 1e-8)
-        ent_scores, cosines, rows = [], [], []
-        for cl in self.cluster_ids:
-            pv = self.prev_vec[cl]; ent = 0.0
-            for e, w in qents.items():
-                if e in vidx:
-                    i = vidx[e]; ent += w * pv[i] * (pv[i] / (cp[i] + 1e-8))
-            pvn = pv / (np.linalg.norm(pv) + 1e-8)
-            ent_scores.append(ent); cosines.append(float(qn @ pvn))
-            rows.append(dict(cluster=cl, n_notes=self.profiles[str(cl)]["n_notes"],
-                             matched_entities=[e for e in qents if e in vidx and pv[vidx[e]] > 0]))
-        ent_scores, cosines = np.array(ent_scores), np.array(cosines)
-        def mm(a):
-            rng = a.max() - a.min()
-            return (a - a.min()) / rng if rng > 1e-12 else np.zeros_like(a)
-        hybrid = alpha * mm(ent_scores) + (1 - alpha) * mm(cosines)
-        for r, h, e, c in zip(rows, hybrid, ent_scores, cosines):
-            r.update(hybrid=round(float(h), 4), entity_score=round(float(e), 4),
-                     cosine=round(float(c), 4))
-        rows = [r for r in rows if r["entity_score"] > MIN_SCORE]
-        rows.sort(key=lambda r: r["hybrid"], reverse=True)
-        return rows[:top_k], qents
-
-    def phenotype_mix(self, cluster_id, top=10):
-        return pd.DataFrame(self.profiles[str(cluster_id)]["top_entities"]).head(top)
-
-    def fragments(self, cluster_id, query_entities, n=2):
-        ids = set(self.assign.loc[self.assign.cluster == cluster_id, "note_id"])
-        m = self.mentions[self.mentions.note_id.isin(ids)
-                          & self.mentions.text.isin(list(query_entities))
-                          & (self.mentions.assertion == "affirmed")]
-        out = []
-        for nid in list(dict.fromkeys(m.note_id))[:n]:
-            out.append(dict(note_id=nid, text=self.note_texts.get(nid, "")))
-        return out
+def get_key():
+    k = os.environ.get("MISTRAL_API_KEY")
+    if k:
+        return k
+    try:
+        return st.secrets["MISTRAL_API_KEY"]
+    except Exception:
+        return None
 
 
 @st.cache_resource
-def load_space():
-    return PhenoSpace(STAGE1_DIR, STAGE2_DIR)
+def load_index():
+    # notes
+    notes = {}
+    ncsv = STAGE1_DIR / "notes.csv"
+    if ncsv.exists():
+        n = pd.read_csv(ncsv, dtype={"idx": str})
+        notes = dict(zip(n["idx"], n["note"]))
+    # entity mentions (affirmed) -> per-note entities + idf
+    note_ents, idf, vocab = {}, {}, set()
+    mcsv = STAGE1_DIR / "entity_mentions.csv"
+    if mcsv.exists() and notes:
+        m = pd.read_csv(mcsv, dtype={"note_id": str})
+        m = m[(m["assertion"] == "affirmed") & (m["note_id"].isin(notes))]
+        g = m.groupby("note_id")["text"].apply(list)
+        note_ents = {nid: g.get(nid, []) for nid in notes}
+        dfc = {}
+        for ents in note_ents.values():
+            for e in set(ents):
+                dfc[e] = dfc.get(e, 0) + 1
+        N = max(len(notes), 1)
+        idf = {e: math.log((N + 1) / (c + 1)) + 1 for e, c in dfc.items()}
+        vocab = set(idf)
+    # cluster assignments (optional)
+    note2cluster = {}
+    ccsv = STAGE2_DIR / "cluster_assignments.csv"
+    if ccsv.exists():
+        c = pd.read_csv(ccsv, dtype={"note_id": str})
+        note2cluster = dict(zip(c["note_id"], c["cluster"]))
+    return notes, note_ents, idf, vocab, note2cluster
 
 
-def label_for(mix):
-    top = mix["entity"].head(2).tolist()
-    return " + ".join(t.title() for t in top) + " phenotype"
+def query_entities(q, vocab):
+    q = q.lower(); hits = {}
+    for e in vocab:
+        if e in q:
+            hits[e] = max(hits.get(e, 0.0), 1.0)
+    for syn, tgts in SYNONYMS.items():
+        if syn in q:
+            for t in tgts:
+                if t in vocab:
+                    hits[t] = max(hits.get(t, 0.0), 0.9)
+    qtokens = [w for w in re.findall(r"[a-z]+", q) if len(w) >= 4]
+    for e in vocab:
+        if set(e.split()) & set(qtokens):
+            hits[e] = max(hits.get(e, 0.0), 0.6)
+    return hits
+
+
+def retrieve(question, notes, note_ents, idf, vocab, k):
+    qe = query_entities(question, vocab)
+    if not qe:
+        return []
+    scored = []
+    for nid, ents in note_ents.items():
+        if not ents:
+            continue
+        tf = {}
+        for e in ents:
+            tf[e] = tf.get(e, 0) + 1
+        s = sum(w * tf.get(e, 0) * idf.get(e, 1.0) for e, w in qe.items())
+        if s > 0:
+            scored.append((nid, round(float(s), 3)))
+    scored.sort(key=lambda x: x[1], reverse=True)
+    return scored[:k]
+
+
+def answer(question, notes, hits, note2cluster, key):
+    blocks = []
+    for nid, _ in hits:
+        cl = note2cluster.get(nid)
+        tag = f" (phenotype cluster {cl})" if cl not in (None, -1) else ""
+        blocks.append(f"[note {nid}]{tag}\n{notes.get(nid,'')[:1200]}")
+    context = "\n\n".join(blocks)
+    if not key:
+        return ("**No MISTRAL_API_KEY configured** — showing retrieved evidence instead of an "
+                "LLM answer.\n\n" + "\n\n".join(
+                    f"[note {nid}] (score {s})\n\n{notes.get(nid,'')[:400]}" for nid, s in hits))
+    from mistralai import Mistral
+    cl = Mistral(api_key=key)
+    resp = cl.chat.complete(model=CHAT_MODEL, temperature=0.1, messages=[
+        {"role": "system", "content": SYSTEM},
+        {"role": "user", "content": f"Context notes:\n\n{context}\n\nQuestion: {question}"},
+    ])
+    return resp.choices[0].message.content
 
 
 # ----------------------------------------------------------------------------
-# UI
-# ----------------------------------------------------------------------------
-st.set_page_config(page_title="PhenoPrompt", page_icon="🔎", layout="wide")
-st.title("PhenoPrompt — prompt-based phenotype query")
-st.caption("Type a clinical concept; retrieve the phenotype clusters where it is enriched.")
+st.set_page_config(page_title="PhenoPrompt — Clinical RAG", page_icon="🩺", layout="wide")
+st.title("PhenoPrompt — Clinical RAG")
+st.caption("Ask a clinical question; answers are grounded in retrieved patient notes, with citations.")
 
-try:
-    ps = load_space()
-except Exception as e:
-    st.error(f"Could not load phenotype index from {DATA_DIR}. "
-             f"Commit the Stage 1/2 output files there. ({e})")
-    st.stop()
+notes, note_ents, idf, vocab, note2cluster = load_index()
+key = get_key()
 
 with st.sidebar:
-    st.metric("Clusters", len(ps.cluster_ids))
-    st.metric("Entities in vocabulary", len(ps.vocab))
-    st.metric("Notes indexed", len(ps.note_texts))
-    top_k = st.slider("Clusters to return", 1, min(6, len(ps.cluster_ids)), 3)
+    st.metric("Notes indexed", len(notes))
+    st.metric("Distinct entities", len(vocab))
+    st.metric("Mistral key", "set ✓" if key else "missing ✗")
+    top_k = st.slider("Notes to retrieve", 1, 10, TOP_K_DEFAULT)
+    if not key:
+        st.info("Add MISTRAL_API_KEY in Settings → Secrets to enable LLM answers. "
+                "Without it, the app shows retrieved evidence only.")
 
-query = st.text_input("Clinical query",
-                      "type 2 diabetes with renal complications")
+if not notes:
+    st.error("No notes found under data/phenoprompt/stage1_outputs/. "
+             "Commit notes.csv and entity_mentions.csv to the repo.")
+    st.stop()
 
-if query:
-    ranked, qents = ps.retrieve(query, top_k=top_k)
-    st.write("**Extracted entities:** " + (", ".join(qents) if qents else "none"))
+question = st.text_input("Clinical question",
+                         "What medications are documented for patients with diabetes and kidney disease?")
 
-    if not ranked:
-        st.warning("No clusters matched. Try terms present in the corpus, "
-                   "or extend the synonym map.")
+if st.button("Ask", type="primary") and question:
+    hits = retrieve(question, notes, note_ents, idf, vocab, top_k)
+    if not hits:
+        st.warning("No relevant notes retrieved. Try different terms (the entity index is "
+                   "vocabulary-bound) or rephrase.")
     else:
-        for i, r in enumerate(ranked, 1):
-            mix = ps.phenotype_mix(r["cluster"])
-            with st.container(border=True):
-                st.subheader(f"{i}. Cluster {r['cluster']} — {label_for(mix)}")
-                c1, c2, c3 = st.columns(3)
-                c1.metric("Patients", r["n_notes"])
-                c2.metric("Hybrid score", f"{r['hybrid']:.3f}")
-                c3.write("**Matched:** " + (", ".join(r["matched_entities"]) or "—"))
+        with st.spinner("Retrieving notes and generating a grounded answer..."):
+            resp = answer(question, notes, hits, note2cluster, key)
+        st.subheader("Answer")
+        st.markdown(resp)
 
-                disp = mix.copy()
-                disp["corpus_prevalence"] = disp["entity"].map(
-                    lambda e: round(float(ps.corpus_prev.get(e, 0.0)), 3))
-                st.dataframe(disp, hide_index=True, use_container_width=True)
+        clusters = sorted({note2cluster.get(n) for n, _ in hits
+                           if note2cluster.get(n) not in (None, -1)})
+        cols = st.columns(2)
+        cols[0].write("**Source notes:** " + ", ".join(str(n) for n, _ in hits))
+        if clusters:
+            cols[1].write("**Phenotype clusters referenced:** " + ", ".join(map(str, clusters)))
 
-                frags = ps.fragments(r["cluster"], qents)
-                if frags and frags[0]["text"]:
-                    with st.expander("Representative note fragment (provenance)"):
-                        st.write(frags[0]["text"][:600])
+        st.subheader("Retrieved evidence")
+        for nid, score in hits:
+            cl = note2cluster.get(nid)
+            label = f"note {nid}  ·  score {score}" + (f"  ·  cluster {cl}"
+                                                       if cl not in (None, -1) else "")
+            with st.expander(label):
+                st.write(notes.get(nid, ""))
