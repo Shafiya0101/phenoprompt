@@ -1,5 +1,7 @@
 # 🔎 PhenoPrompt
 
+[![Live demo](https://img.shields.io/badge/Live%20demo-Streamlit-FF4B4B?logo=streamlit)](https://phenoprompt.streamlit.app/)
+
 > **Prompt-based clinical phenotype discovery.** Build a phenotype space from clinical notes,
 > then query it in natural language — type a clinical concept and retrieve the patient clusters
 > where it is enriched, with no disease-specific algorithm required.
