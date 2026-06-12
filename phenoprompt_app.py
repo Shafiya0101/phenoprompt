@@ -143,6 +143,7 @@ def answer(question, notes, hits, note2cluster, key):
 # ----------------------------------------------------------------------------
 st.set_page_config(page_title="PhenoPrompt — Clinical RAG", page_icon="🩺", layout="wide")
 st.title("PhenoPrompt — Clinical RAG")
+st.info("🔗 Companion phenotype dashboard: [MIMIC-II Phenotyping Explorer](https://mimic-phenotyping-ykpfxskdq6u3yavtfffiqg.streamlit.app/)")
 st.caption("Ask a clinical question; answers are grounded in retrieved patient notes, with citations.")
 
 notes, note_ents, idf, vocab, note2cluster = load_index()
