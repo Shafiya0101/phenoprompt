@@ -57,9 +57,9 @@ def get_key():
 def load_index():
     # notes
     notes = {}
-    ncsv = STAGE1_DIR / "notes.csv"
+    ncsv = STAGE1_DIR / "notes.csv.gz"
     if ncsv.exists():
-        n = pd.read_csv(ncsv, dtype={"idx": str})
+        n = pd.read_csv(ncsv, dtype={"idx": str}, compression="gzip")
         notes = dict(zip(n["idx"], n["note"]))
     # entity mentions (affirmed) -> per-note entities + idf
     note_ents, idf, vocab = {}, {}, set()
