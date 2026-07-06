@@ -147,7 +147,9 @@ with tab_map:
     if umap_df.empty or clusters_df.empty:
         st.info("umap_2d_coords.csv or cluster_assignments.csv not found.")
     else:
-        m = umap_df.merge(clusters_df, on="note_id", how="left")
+        # umap_df may already contain a 'cluster' column; drop it before merging
+        _u = umap_df.drop(columns=[c for c in ["cluster"] if c in umap_df.columns])
+        m = _u.merge(clusters_df, on="note_id", how="left")
         m["cluster"] = m["cluster"].fillna(-1).astype(int)
         m["group"] = m["cluster"].apply(lambda c: "noise" if c == -1 else f"cluster {c}")
         fig = px.scatter(m, x="x", y="y", color="group",
