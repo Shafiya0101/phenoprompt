@@ -1,0 +1,6330 @@
+{
+  "0": {
+    "cluster_id": 0,
+    "n_notes": 38,
+    "top_entities": [
+      {
+        "entity": "CKD",
+        "score": 445.803,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PALP",
+        "score": 14.9638,
+        "prevalence_cluster": 0.132
+      },
+      {
+        "entity": "STROKE",
+        "score": 10.6715,
+        "prevalence_cluster": 0.132
+      },
+      {
+        "entity": "HTN",
+        "score": 9.3499,
+        "prevalence_cluster": 0.447
+      },
+      {
+        "entity": "SSRI",
+        "score": 7.0883,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "DM",
+        "score": 4.11,
+        "prevalence_cluster": 0.184
+      },
+      {
+        "entity": "BX",
+        "score": 3.1058,
+        "prevalence_cluster": 0.211
+      },
+      {
+        "entity": "FAT",
+        "score": 2.6812,
+        "prevalence_cluster": 0.158
+      },
+      {
+        "entity": "CCB",
+        "score": 2.4928,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "CT",
+        "score": 1.6982,
+        "prevalence_cluster": 0.237
+      }
+    ]
+  },
+  "1": {
+    "cluster_id": 1,
+    "n_notes": 63,
+    "top_entities": [
+      {
+        "entity": "FQ",
+        "score": 463.1578,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "VAN",
+        "score": 31.4286,
+        "prevalence_cluster": 0.19
+      },
+      {
+        "entity": "INF",
+        "score": 10.9677,
+        "prevalence_cluster": 0.333
+      },
+      {
+        "entity": "ANX",
+        "score": 9.6416,
+        "prevalence_cluster": 0.095
+      },
+      {
+        "entity": "AMOX",
+        "score": 8.289,
+        "prevalence_cluster": 0.063
+      },
+      {
+        "entity": "SURG",
+        "score": 4.4717,
+        "prevalence_cluster": 0.476
+      },
+      {
+        "entity": "ENDO",
+        "score": 2.7285,
+        "prevalence_cluster": 0.095
+      },
+      {
+        "entity": "CT",
+        "score": 2.1007,
+        "prevalence_cluster": 0.238
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 1.806,
+        "prevalence_cluster": 0.016
+      },
+      {
+        "entity": "EDEMA",
+        "score": 1.7354,
+        "prevalence_cluster": 0.159
+      }
+    ]
+  },
+  "2": {
+    "cluster_id": 2,
+    "n_notes": 38,
+    "top_entities": [
+      {
+        "entity": "HYPO",
+        "score": 254.8843,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 3.0447,
+        "prevalence_cluster": 0.421
+      },
+      {
+        "entity": "US",
+        "score": 2.8929,
+        "prevalence_cluster": 0.184
+      },
+      {
+        "entity": "CT",
+        "score": 2.5223,
+        "prevalence_cluster": 0.316
+      },
+      {
+        "entity": "JPAIN",
+        "score": 1.9154,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "XR",
+        "score": 1.2729,
+        "prevalence_cluster": 0.079
+      },
+      {
+        "entity": "FAT",
+        "score": 1.1088,
+        "prevalence_cluster": 0.079
+      },
+      {
+        "entity": "BX",
+        "score": 0.5962,
+        "prevalence_cluster": 0.079
+      },
+      {
+        "entity": "MRI",
+        "score": 0.4221,
+        "prevalence_cluster": 0.079
+      },
+      {
+        "entity": "HTN",
+        "score": 0.4034,
+        "prevalence_cluster": 0.053
+      }
+    ]
+  },
+  "3": {
+    "cluster_id": 3,
+    "n_notes": 44,
+    "top_entities": [
+      {
+        "entity": "PE",
+        "score": 361.6792,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 16.4047,
+        "prevalence_cluster": 0.136
+      },
+      {
+        "entity": "SOB",
+        "score": 14.0648,
+        "prevalence_cluster": 0.432
+      },
+      {
+        "entity": "US",
+        "score": 6.5073,
+        "prevalence_cluster": 0.318
+      },
+      {
+        "entity": "EDEMA",
+        "score": 4.9258,
+        "prevalence_cluster": 0.364
+      },
+      {
+        "entity": "CT",
+        "score": 4.3284,
+        "prevalence_cluster": 0.432
+      },
+      {
+        "entity": "SURG",
+        "score": 3.8609,
+        "prevalence_cluster": 0.477
+      },
+      {
+        "entity": "CANCER",
+        "score": 1.8248,
+        "prevalence_cluster": 0.159
+      },
+      {
+        "entity": "MRI",
+        "score": 1.3483,
+        "prevalence_cluster": 0.159
+      },
+      {
+        "entity": "FX",
+        "score": 1.0807,
+        "prevalence_cluster": 0.068
+      }
+    ]
+  },
+  "4": {
+    "cluster_id": 4,
+    "n_notes": 38,
+    "top_entities": [
+      {
+        "entity": "COPD",
+        "score": 306.7562,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "XR",
+        "score": 6.3218,
+        "prevalence_cluster": 0.263
+      },
+      {
+        "entity": "SOB",
+        "score": 5.2856,
+        "prevalence_cluster": 0.184
+      },
+      {
+        "entity": "SABA",
+        "score": 4.915,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "DEM",
+        "score": 4.3416,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "PNA",
+        "score": 4.1294,
+        "prevalence_cluster": 0.079
+      },
+      {
+        "entity": "HTN",
+        "score": 3.8047,
+        "prevalence_cluster": 0.237
+      },
+      {
+        "entity": "CANCER",
+        "score": 3.0647,
+        "prevalence_cluster": 0.211
+      },
+      {
+        "entity": "CT",
+        "score": 2.7005,
+        "prevalence_cluster": 0.289
+      },
+      {
+        "entity": "COUGH",
+        "score": 2.2265,
+        "prevalence_cluster": 0.079
+      }
+    ]
+  },
+  "5": {
+    "cluster_id": 5,
+    "n_notes": 35,
+    "top_entities": [
+      {
+        "entity": "AFIB",
+        "score": 171.9338,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "BB",
+        "score": 7.6626,
+        "prevalence_cluster": 0.057
+      },
+      {
+        "entity": "XR",
+        "score": 4.1665,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "SURG",
+        "score": 4.0201,
+        "prevalence_cluster": 0.486
+      },
+      {
+        "entity": "HF",
+        "score": 2.9155,
+        "prevalence_cluster": 0.057
+      },
+      {
+        "entity": "HTN",
+        "score": 2.9015,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "ASA",
+        "score": 2.892,
+        "prevalence_cluster": 0.057
+      },
+      {
+        "entity": "CT",
+        "score": 2.7385,
+        "prevalence_cluster": 0.343
+      },
+      {
+        "entity": "ECG",
+        "score": 1.8278,
+        "prevalence_cluster": 0.057
+      },
+      {
+        "entity": "MI",
+        "score": 1.4177,
+        "prevalence_cluster": 0.029
+      }
+    ]
+  },
+  "6": {
+    "cluster_id": 6,
+    "n_notes": 60,
+    "top_entities": [
+      {
+        "entity": "OPIOID",
+        "score": 499.6141,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "APAP",
+        "score": 8.0015,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "NSAID",
+        "score": 4.8876,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "FAT",
+        "score": 3.6141,
+        "prevalence_cluster": 0.167
+      },
+      {
+        "entity": "US",
+        "score": 2.5022,
+        "prevalence_cluster": 0.133
+      },
+      {
+        "entity": "SEPSIS",
+        "score": 2.2788,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "EDEMA",
+        "score": 2.2497,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "CANCER",
+        "score": 1.9052,
+        "prevalence_cluster": 0.15
+      },
+      {
+        "entity": "SURG",
+        "score": 1.7041,
+        "prevalence_cluster": 0.25
+      },
+      {
+        "entity": "BP",
+        "score": 1.2187,
+        "prevalence_cluster": 0.033
+      }
+    ]
+  },
+  "7": {
+    "cluster_id": 7,
+    "n_notes": 41,
+    "top_entities": [
+      {
+        "entity": "LAB",
+        "score": 357.6506,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 7.499,
+        "prevalence_cluster": 0.561
+      },
+      {
+        "entity": "CT",
+        "score": 3.732,
+        "prevalence_cluster": 0.415
+      },
+      {
+        "entity": "SURG",
+        "score": 3.2299,
+        "prevalence_cluster": 0.39
+      },
+      {
+        "entity": "US",
+        "score": 0.7661,
+        "prevalence_cluster": 0.073
+      },
+      {
+        "entity": "CANCER",
+        "score": 0.5595,
+        "prevalence_cluster": 0.073
+      },
+      {
+        "entity": "INF",
+        "score": 0.535,
+        "prevalence_cluster": 0.049
+      },
+      {
+        "entity": "NV",
+        "score": 0.2411,
+        "prevalence_cluster": 0.024
+      },
+      {
+        "entity": "DM",
+        "score": 0.1814,
+        "prevalence_cluster": 0.024
+      },
+      {
+        "entity": "HTN",
+        "score": 0.1179,
+        "prevalence_cluster": 0.024
+      }
+    ]
+  },
+  "8": {
+    "cluster_id": 8,
+    "n_notes": 37,
+    "top_entities": [
+      {
+        "entity": "JPAIN",
+        "score": 412.8702,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "HF",
+        "score": 11.245,
+        "prevalence_cluster": 0.135
+      },
+      {
+        "entity": "EDEMA",
+        "score": 7.9035,
+        "prevalence_cluster": 0.514
+      },
+      {
+        "entity": "SURG",
+        "score": 3.2773,
+        "prevalence_cluster": 0.378
+      },
+      {
+        "entity": "CT",
+        "score": 2.3005,
+        "prevalence_cluster": 0.297
+      },
+      {
+        "entity": "ARTH",
+        "score": 1.7378,
+        "prevalence_cluster": 0.027
+      },
+      {
+        "entity": "BP",
+        "score": 0.4941,
+        "prevalence_cluster": 0.027
+      },
+      {
+        "entity": "FEV",
+        "score": 0.4782,
+        "prevalence_cluster": 0.054
+      },
+      {
+        "entity": "MRI",
+        "score": 0.4335,
+        "prevalence_cluster": 0.081
+      },
+      {
+        "entity": "DM",
+        "score": 0.201,
+        "prevalence_cluster": 0.027
+      }
+    ]
+  },
+  "9": {
+    "cluster_id": 9,
+    "n_notes": 43,
+    "top_entities": [
+      {
+        "entity": "PALP",
+        "score": 266.8763,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "HYPERT",
+        "score": 64.6816,
+        "prevalence_cluster": 0.116
+      },
+      {
+        "entity": "ECHO",
+        "score": 23.7609,
+        "prevalence_cluster": 0.349
+      },
+      {
+        "entity": "SOB",
+        "score": 21.4997,
+        "prevalence_cluster": 0.581
+      },
+      {
+        "entity": "BB",
+        "score": 6.237,
+        "prevalence_cluster": 0.047
+      },
+      {
+        "entity": "ARB",
+        "score": 4.7465,
+        "prevalence_cluster": 0.023
+      },
+      {
+        "entity": "HF",
+        "score": 4.4918,
+        "prevalence_cluster": 0.07
+      },
+      {
+        "entity": "DIUR",
+        "score": 2.112,
+        "prevalence_cluster": 0.023
+      },
+      {
+        "entity": "SURG",
+        "score": 2.0539,
+        "prevalence_cluster": 0.326
+      },
+      {
+        "entity": "NV",
+        "score": 1.8748,
+        "prevalence_cluster": 0.116
+      }
+    ]
+  },
+  "10": {
+    "cluster_id": 10,
+    "n_notes": 94,
+    "top_entities": [
+      {
+        "entity": "INS",
+        "score": 422.5418,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DM",
+        "score": 47.2078,
+        "prevalence_cluster": 0.862
+      },
+      {
+        "entity": "METS",
+        "score": 37.0899,
+        "prevalence_cluster": 0.021
+      },
+      {
+        "entity": "T2DM",
+        "score": 18.1243,
+        "prevalence_cluster": 0.106
+      },
+      {
+        "entity": "MET",
+        "score": 14.7076,
+        "prevalence_cluster": 0.043
+      },
+      {
+        "entity": "WTCHG",
+        "score": 5.4266,
+        "prevalence_cluster": 0.138
+      },
+      {
+        "entity": "HTN",
+        "score": 4.2244,
+        "prevalence_cluster": 0.202
+      },
+      {
+        "entity": "INF",
+        "score": 3.828,
+        "prevalence_cluster": 0.138
+      },
+      {
+        "entity": "EDEMA",
+        "score": 2.2001,
+        "prevalence_cluster": 0.149
+      },
+      {
+        "entity": "SURG",
+        "score": 1.849,
+        "prevalence_cluster": 0.223
+      }
+    ]
+  },
+  "11": {
+    "cluster_id": 11,
+    "n_notes": 35,
+    "top_entities": [
+      {
+        "entity": "SEPSIS",
+        "score": 252.6673,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "INF",
+        "score": 8.2803,
+        "prevalence_cluster": 0.314
+      },
+      {
+        "entity": "FEV",
+        "score": 7.0168,
+        "prevalence_cluster": 0.314
+      },
+      {
+        "entity": "VAN",
+        "score": 4.0384,
+        "prevalence_cluster": 0.057
+      },
+      {
+        "entity": "CT",
+        "score": 2.432,
+        "prevalence_cluster": 0.314
+      },
+      {
+        "entity": "SURG",
+        "score": 2.4079,
+        "prevalence_cluster": 0.314
+      },
+      {
+        "entity": "PE",
+        "score": 1.6539,
+        "prevalence_cluster": 0.029
+      },
+      {
+        "entity": "AMOX",
+        "score": 1.443,
+        "prevalence_cluster": 0.029
+      },
+      {
+        "entity": "ARTH",
+        "score": 1.1591,
+        "prevalence_cluster": 0.029
+      },
+      {
+        "entity": "HEME",
+        "score": 1.0083,
+        "prevalence_cluster": 0.029
+      }
+    ]
+  },
+  "12": {
+    "cluster_id": 12,
+    "n_notes": 52,
+    "top_entities": [
+      {
+        "entity": "ASA",
+        "score": 202.4423,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "STATIN",
+        "score": 89.8636,
+        "prevalence_cluster": 0.231
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 17.3056,
+        "prevalence_cluster": 0.135
+      },
+      {
+        "entity": "MI",
+        "score": 17.1755,
+        "prevalence_cluster": 0.115
+      },
+      {
+        "entity": "DIZ",
+        "score": 8.4397,
+        "prevalence_cluster": 0.115
+      },
+      {
+        "entity": "US",
+        "score": 3.1343,
+        "prevalence_cluster": 0.173
+      },
+      {
+        "entity": "ACE",
+        "score": 3.0704,
+        "prevalence_cluster": 0.019
+      },
+      {
+        "entity": "MRI",
+        "score": 2.6209,
+        "prevalence_cluster": 0.231
+      },
+      {
+        "entity": "EDEMA",
+        "score": 2.1323,
+        "prevalence_cluster": 0.173
+      },
+      {
+        "entity": "CT",
+        "score": 1.8432,
+        "prevalence_cluster": 0.231
+      }
+    ]
+  },
+  "13": {
+    "cluster_id": 13,
+    "n_notes": 42,
+    "top_entities": [
+      {
+        "entity": "HF",
+        "score": 213.4077,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SOB",
+        "score": 10.0483,
+        "prevalence_cluster": 0.333
+      },
+      {
+        "entity": "HTN",
+        "score": 8.162,
+        "prevalence_cluster": 0.405
+      },
+      {
+        "entity": "PD",
+        "score": 7.2519,
+        "prevalence_cluster": 0.024
+      },
+      {
+        "entity": "AFIB",
+        "score": 6.123,
+        "prevalence_cluster": 0.095
+      },
+      {
+        "entity": "EDEMA",
+        "score": 3.5858,
+        "prevalence_cluster": 0.286
+      },
+      {
+        "entity": "BX",
+        "score": 3.2074,
+        "prevalence_cluster": 0.19
+      },
+      {
+        "entity": "ECG",
+        "score": 2.883,
+        "prevalence_cluster": 0.071
+      },
+      {
+        "entity": "ECHO",
+        "score": 2.3335,
+        "prevalence_cluster": 0.071
+      },
+      {
+        "entity": "CKD",
+        "score": 1.7203,
+        "prevalence_cluster": 0.024
+      }
+    ]
+  },
+  "14": {
+    "cluster_id": 14,
+    "n_notes": 48,
+    "top_entities": [
+      {
+        "entity": "ASTHMA",
+        "score": 268.3163,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SABA",
+        "score": 225.5738,
+        "prevalence_cluster": 0.271
+      },
+      {
+        "entity": "LAMA",
+        "score": 31.7263,
+        "prevalence_cluster": 0.021
+      },
+      {
+        "entity": "COUGH",
+        "score": 11.1848,
+        "prevalence_cluster": 0.208
+      },
+      {
+        "entity": "SOB",
+        "score": 7.0593,
+        "prevalence_cluster": 0.229
+      },
+      {
+        "entity": "ENDO",
+        "score": 2.7479,
+        "prevalence_cluster": 0.104
+      },
+      {
+        "entity": "CT",
+        "score": 2.5182,
+        "prevalence_cluster": 0.292
+      },
+      {
+        "entity": "INF",
+        "score": 2.4283,
+        "prevalence_cluster": 0.125
+      },
+      {
+        "entity": "FAT",
+        "score": 2.1226,
+        "prevalence_cluster": 0.125
+      },
+      {
+        "entity": "XR",
+        "score": 1.8698,
+        "prevalence_cluster": 0.104
+      }
+    ]
+  },
+  "15": {
+    "cluster_id": 15,
+    "n_notes": 73,
+    "top_entities": [
+      {
+        "entity": "ANTICOAG",
+        "score": 333.4474,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "STROKE",
+        "score": 17.9632,
+        "prevalence_cluster": 0.123
+      },
+      {
+        "entity": "AFIB",
+        "score": 15.1721,
+        "prevalence_cluster": 0.137
+      },
+      {
+        "entity": "ECHO",
+        "score": 7.868,
+        "prevalence_cluster": 0.123
+      },
+      {
+        "entity": "RF",
+        "score": 7.6701,
+        "prevalence_cluster": 0.068
+      },
+      {
+        "entity": "OBS",
+        "score": 6.1173,
+        "prevalence_cluster": 0.068
+      },
+      {
+        "entity": "EDEMA",
+        "score": 3.8448,
+        "prevalence_cluster": 0.26
+      },
+      {
+        "entity": "SURG",
+        "score": 3.5632,
+        "prevalence_cluster": 0.37
+      },
+      {
+        "entity": "US",
+        "score": 3.2242,
+        "prevalence_cluster": 0.151
+      },
+      {
+        "entity": "HYPERT",
+        "score": 2.9478,
+        "prevalence_cluster": 0.014
+      }
+    ]
+  },
+  "16": {
+    "cluster_id": 16,
+    "n_notes": 30,
+    "top_entities": [
+      {
+        "entity": "RF",
+        "score": 236.5076,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "HD",
+        "score": 7.542,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "FAT",
+        "score": 3.3962,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "SURG",
+        "score": 2.9296,
+        "prevalence_cluster": 0.4
+      },
+      {
+        "entity": "CANCER",
+        "score": 2.1467,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "CT",
+        "score": 1.8246,
+        "prevalence_cluster": 0.267
+      },
+      {
+        "entity": "BX",
+        "score": 0.8768,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "FEV",
+        "score": 0.5898,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "XR",
+        "score": 0.2315,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "HTN",
+        "score": 0.1612,
+        "prevalence_cluster": 0.033
+      }
+    ]
+  },
+  "17": {
+    "cluster_id": 17,
+    "n_notes": 106,
+    "top_entities": [
+      {
+        "entity": "HD",
+        "score": 328.0921,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "RF",
+        "score": 34.6278,
+        "prevalence_cluster": 0.179
+      },
+      {
+        "entity": "VAN",
+        "score": 27.5105,
+        "prevalence_cluster": 0.151
+      },
+      {
+        "entity": "DM",
+        "score": 11.9986,
+        "prevalence_cluster": 0.283
+      },
+      {
+        "entity": "T2DM",
+        "score": 10.4326,
+        "prevalence_cluster": 0.075
+      },
+      {
+        "entity": "HLD",
+        "score": 7.0925,
+        "prevalence_cluster": 0.066
+      },
+      {
+        "entity": "CKD",
+        "score": 7.0481,
+        "prevalence_cluster": 0.038
+      },
+      {
+        "entity": "US",
+        "score": 5.9977,
+        "prevalence_cluster": 0.236
+      },
+      {
+        "entity": "HTN",
+        "score": 4.0076,
+        "prevalence_cluster": 0.189
+      },
+      {
+        "entity": "CANCER",
+        "score": 3.0659,
+        "prevalence_cluster": 0.16
+      }
+    ]
+  },
+  "18": {
+    "cluster_id": 18,
+    "n_notes": 78,
+    "top_entities": [
+      {
+        "entity": "PNA",
+        "score": 185.3569,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "XR",
+        "score": 11.4675,
+        "prevalence_cluster": 0.333
+      },
+      {
+        "entity": "FEV",
+        "score": 10.8904,
+        "prevalence_cluster": 0.372
+      },
+      {
+        "entity": "SOB",
+        "score": 7.6276,
+        "prevalence_cluster": 0.218
+      },
+      {
+        "entity": "COUGH",
+        "score": 7.129,
+        "prevalence_cluster": 0.141
+      },
+      {
+        "entity": "CT",
+        "score": 4.1509,
+        "prevalence_cluster": 0.385
+      },
+      {
+        "entity": "SURG",
+        "score": 2.9711,
+        "prevalence_cluster": 0.359
+      },
+      {
+        "entity": "INF",
+        "score": 2.6524,
+        "prevalence_cluster": 0.115
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 1.4587,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "CANCER",
+        "score": 1.0877,
+        "prevalence_cluster": 0.09
+      }
+    ]
+  },
+  "19": {
+    "cluster_id": 19,
+    "n_notes": 58,
+    "top_entities": [
+      {
+        "entity": "OBS",
+        "score": 239.0529,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PE",
+        "score": 12.8998,
+        "prevalence_cluster": 0.086
+      },
+      {
+        "entity": "WTCHG",
+        "score": 11.5522,
+        "prevalence_cluster": 0.241
+      },
+      {
+        "entity": "HYPO",
+        "score": 9.8697,
+        "prevalence_cluster": 0.086
+      },
+      {
+        "entity": "CAD",
+        "score": 7.3163,
+        "prevalence_cluster": 0.086
+      },
+      {
+        "entity": "SURG",
+        "score": 4.9304,
+        "prevalence_cluster": 0.483
+      },
+      {
+        "entity": "DM",
+        "score": 4.5087,
+        "prevalence_cluster": 0.155
+      },
+      {
+        "entity": "MRI",
+        "score": 1.9222,
+        "prevalence_cluster": 0.172
+      },
+      {
+        "entity": "HTN",
+        "score": 1.7509,
+        "prevalence_cluster": 0.121
+      },
+      {
+        "entity": "EDEMA",
+        "score": 1.5229,
+        "prevalence_cluster": 0.155
+      }
+    ]
+  },
+  "20": {
+    "cluster_id": 20,
+    "n_notes": 120,
+    "top_entities": [
+      {
+        "entity": "ECG",
+        "score": 161.2205,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PALP",
+        "score": 46.1763,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "ECHO",
+        "score": 13.2748,
+        "prevalence_cluster": 0.175
+      },
+      {
+        "entity": "PD",
+        "score": 8.0458,
+        "prevalence_cluster": 0.017
+      },
+      {
+        "entity": "BB",
+        "score": 7.2901,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "MI",
+        "score": 6.9648,
+        "prevalence_cluster": 0.05
+      },
+      {
+        "entity": "CP",
+        "score": 5.2329,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "AFIB",
+        "score": 3.8866,
+        "prevalence_cluster": 0.05
+      },
+      {
+        "entity": "SURG",
+        "score": 2.8099,
+        "prevalence_cluster": 0.292
+      },
+      {
+        "entity": "DIZ",
+        "score": 2.626,
+        "prevalence_cluster": 0.042
+      }
+    ]
+  },
+  "21": {
+    "cluster_id": 21,
+    "n_notes": 57,
+    "top_entities": [
+      {
+        "entity": "WTCHG",
+        "score": 66.7384,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DM",
+        "score": 5.4645,
+        "prevalence_cluster": 0.193
+      },
+      {
+        "entity": "US",
+        "score": 4.4082,
+        "prevalence_cluster": 0.211
+      },
+      {
+        "entity": "DEM",
+        "score": 2.8944,
+        "prevalence_cluster": 0.018
+      },
+      {
+        "entity": "SSRI",
+        "score": 2.3628,
+        "prevalence_cluster": 0.018
+      },
+      {
+        "entity": "CANCER",
+        "score": 1.4086,
+        "prevalence_cluster": 0.123
+      },
+      {
+        "entity": "SURG",
+        "score": 0.3576,
+        "prevalence_cluster": 0.088
+      },
+      {
+        "entity": "NV",
+        "score": 0.3469,
+        "prevalence_cluster": 0.035
+      },
+      {
+        "entity": "FEV",
+        "score": 0.3104,
+        "prevalence_cluster": 0.035
+      },
+      {
+        "entity": "HTN",
+        "score": 0.0848,
+        "prevalence_cluster": 0.018
+      }
+    ]
+  },
+  "22": {
+    "cluster_id": 22,
+    "n_notes": 58,
+    "top_entities": [
+      {
+        "entity": "CP",
+        "score": 101.8119,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DEP",
+        "score": 7.2871,
+        "prevalence_cluster": 0.103
+      },
+      {
+        "entity": "ECHO",
+        "score": 5.9143,
+        "prevalence_cluster": 0.121
+      },
+      {
+        "entity": "FEV",
+        "score": 5.2636,
+        "prevalence_cluster": 0.241
+      },
+      {
+        "entity": "SURG",
+        "score": 4.7078,
+        "prevalence_cluster": 0.534
+      },
+      {
+        "entity": "XR",
+        "score": 2.7841,
+        "prevalence_cluster": 0.121
+      },
+      {
+        "entity": "CT",
+        "score": 2.5294,
+        "prevalence_cluster": 0.276
+      },
+      {
+        "entity": "ENDO",
+        "score": 2.2741,
+        "prevalence_cluster": 0.086
+      },
+      {
+        "entity": "INF",
+        "score": 2.0096,
+        "prevalence_cluster": 0.103
+      },
+      {
+        "entity": "SOB",
+        "score": 1.8239,
+        "prevalence_cluster": 0.086
+      }
+    ]
+  },
+  "23": {
+    "cluster_id": 23,
+    "n_notes": 30,
+    "top_entities": [
+      {
+        "entity": "COUGH",
+        "score": 76.5152,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "LAMA",
+        "score": 50.7621,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "SOB",
+        "score": 43.5696,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SABA",
+        "score": 24.9027,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "CT",
+        "score": 5.8584,
+        "prevalence_cluster": 0.6
+      },
+      {
+        "entity": "SURG",
+        "score": 3.5731,
+        "prevalence_cluster": 0.533
+      },
+      {
+        "entity": "NV",
+        "score": 2.6873,
+        "prevalence_cluster": 0.167
+      },
+      {
+        "entity": "CP",
+        "score": 1.4942,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "PNA",
+        "score": 0.8718,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "BX",
+        "score": 0.7552,
+        "prevalence_cluster": 0.1
+      }
+    ]
+  },
+  "24": {
+    "cluster_id": 24,
+    "n_notes": 30,
+    "top_entities": [
+      {
+        "entity": "AMS",
+        "score": 272.6657,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 8.7187,
+        "prevalence_cluster": 0.567
+      },
+      {
+        "entity": "SSRI",
+        "score": 4.4893,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "FAT",
+        "score": 3.6293,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "HA",
+        "score": 2.2901,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "SURG",
+        "score": 0.9463,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "CT",
+        "score": 0.9299,
+        "prevalence_cluster": 0.167
+      },
+      {
+        "entity": "DIZ",
+        "score": 0.8127,
+        "prevalence_cluster": 0.033
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.3122,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "XR",
+        "score": 0.2315,
+        "prevalence_cluster": 0.033
+      }
+    ]
+  },
+  "25": {
+    "cluster_id": 25,
+    "n_notes": 74,
+    "top_entities": [
+      {
+        "entity": "COUGH",
+        "score": 103.2458,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "LAMA",
+        "score": 20.5792,
+        "prevalence_cluster": 0.014
+      },
+      {
+        "entity": "SABA",
+        "score": 15.1435,
+        "prevalence_cluster": 0.041
+      },
+      {
+        "entity": "FEV",
+        "score": 12.0126,
+        "prevalence_cluster": 0.392
+      },
+      {
+        "entity": "INF",
+        "score": 5.2539,
+        "prevalence_cluster": 0.176
+      },
+      {
+        "entity": "XR",
+        "score": 4.7661,
+        "prevalence_cluster": 0.176
+      },
+      {
+        "entity": "SURG",
+        "score": 3.1416,
+        "prevalence_cluster": 0.365
+      },
+      {
+        "entity": "CT",
+        "score": 2.507,
+        "prevalence_cluster": 0.257
+      },
+      {
+        "entity": "SOB",
+        "score": 1.7154,
+        "prevalence_cluster": 0.081
+      },
+      {
+        "entity": "CP",
+        "score": 1.1466,
+        "prevalence_cluster": 0.041
+      }
+    ]
+  },
+  "26": {
+    "cluster_id": 26,
+    "n_notes": 77,
+    "top_entities": [
+      {
+        "entity": "ANTIPSY",
+        "score": 856.0273,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SSRI",
+        "score": 87.5215,
+        "prevalence_cluster": 0.156
+      },
+      {
+        "entity": "DEP",
+        "score": 23.7462,
+        "prevalence_cluster": 0.195
+      },
+      {
+        "entity": "METS",
+        "score": 14.2838,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "DEM",
+        "score": 6.7919,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "PD",
+        "score": 3.9556,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "WTCHG",
+        "score": 2.9699,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "FQ",
+        "score": 2.8398,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "AMS",
+        "score": 2.6438,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "ANX",
+        "score": 1.4846,
+        "prevalence_cluster": 0.026
+      }
+    ]
+  },
+  "27": {
+    "cluster_id": 27,
+    "n_notes": 220,
+    "top_entities": [
+      {
+        "entity": "ECHO",
+        "score": 141.0174,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SOB",
+        "score": 13.7798,
+        "prevalence_cluster": 0.291
+      },
+      {
+        "entity": "HF",
+        "score": 9.7878,
+        "prevalence_cluster": 0.068
+      },
+      {
+        "entity": "LAMA",
+        "score": 6.9221,
+        "prevalence_cluster": 0.005
+      },
+      {
+        "entity": "SURG",
+        "score": 5.9278,
+        "prevalence_cluster": 0.486
+      },
+      {
+        "entity": "CT",
+        "score": 3.7758,
+        "prevalence_cluster": 0.286
+      },
+      {
+        "entity": "XR",
+        "score": 3.1412,
+        "prevalence_cluster": 0.1
+      },
+      {
+        "entity": "HTN",
+        "score": 2.9121,
+        "prevalence_cluster": 0.123
+      },
+      {
+        "entity": "US",
+        "score": 1.8302,
+        "prevalence_cluster": 0.073
+      },
+      {
+        "entity": "MRI",
+        "score": 1.3868,
+        "prevalence_cluster": 0.109
+      }
+    ]
+  },
+  "28": {
+    "cluster_id": 28,
+    "n_notes": 51,
+    "top_entities": [
+      {
+        "entity": "AMOX",
+        "score": 299.5273,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 7.9627,
+        "prevalence_cluster": 0.431
+      },
+      {
+        "entity": "SURG",
+        "score": 2.6332,
+        "prevalence_cluster": 0.314
+      },
+      {
+        "entity": "BX",
+        "score": 1.5548,
+        "prevalence_cluster": 0.137
+      },
+      {
+        "entity": "DM",
+        "score": 0.875,
+        "prevalence_cluster": 0.059
+      },
+      {
+        "entity": "XR",
+        "score": 0.4316,
+        "prevalence_cluster": 0.039
+      },
+      {
+        "entity": "INF",
+        "score": 0.4301,
+        "prevalence_cluster": 0.039
+      },
+      {
+        "entity": "CT",
+        "score": 0.1342,
+        "prevalence_cluster": 0.039
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "29": {
+    "cluster_id": 29,
+    "n_notes": 44,
+    "top_entities": [
+      {
+        "entity": "STROKE",
+        "score": 212.7655,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "FAT",
+        "score": 11.6479,
+        "prevalence_cluster": 0.432
+      },
+      {
+        "entity": "ASA",
+        "score": 6.7403,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "MRI",
+        "score": 6.0587,
+        "prevalence_cluster": 0.432
+      },
+      {
+        "entity": "CT",
+        "score": 2.0545,
+        "prevalence_cluster": 0.25
+      },
+      {
+        "entity": "DIZ",
+        "score": 1.7565,
+        "prevalence_cluster": 0.045
+      },
+      {
+        "entity": "DM",
+        "score": 1.5699,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "HTN",
+        "score": 1.0208,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "INF",
+        "score": 0.9436,
+        "prevalence_cluster": 0.068
+      },
+      {
+        "entity": "FEV",
+        "score": 0.7611,
+        "prevalence_cluster": 0.068
+      }
+    ]
+  },
+  "30": {
+    "cluster_id": 30,
+    "n_notes": 87,
+    "top_entities": [
+      {
+        "entity": "DIZ",
+        "score": 187.0642,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "HA",
+        "score": 28.2114,
+        "prevalence_cluster": 0.414
+      },
+      {
+        "entity": "NV",
+        "score": 20.4282,
+        "prevalence_cluster": 0.506
+      },
+      {
+        "entity": "MRI",
+        "score": 4.3543,
+        "prevalence_cluster": 0.31
+      },
+      {
+        "entity": "SURG",
+        "score": 1.9374,
+        "prevalence_cluster": 0.253
+      },
+      {
+        "entity": "DM",
+        "score": 1.7952,
+        "prevalence_cluster": 0.08
+      },
+      {
+        "entity": "MET",
+        "score": 1.711,
+        "prevalence_cluster": 0.011
+      },
+      {
+        "entity": "HTN",
+        "score": 1.4096,
+        "prevalence_cluster": 0.092
+      },
+      {
+        "entity": "CT",
+        "score": 1.1335,
+        "prevalence_cluster": 0.138
+      },
+      {
+        "entity": "FAT",
+        "score": 0.6457,
+        "prevalence_cluster": 0.046
+      }
+    ]
+  },
+  "31": {
+    "cluster_id": 31,
+    "n_notes": 79,
+    "top_entities": [
+      {
+        "entity": "DEP",
+        "score": 175.0746,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SSRI",
+        "score": 136.2248,
+        "prevalence_cluster": 0.215
+      },
+      {
+        "entity": "PD",
+        "score": 3.8554,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "DEM",
+        "score": 3.31,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "SURG",
+        "score": 1.768,
+        "prevalence_cluster": 0.215
+      },
+      {
+        "entity": "INF",
+        "score": 1.1321,
+        "prevalence_cluster": 0.063
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.6299,
+        "prevalence_cluster": 0.076
+      },
+      {
+        "entity": "NV",
+        "score": 0.2503,
+        "prevalence_cluster": 0.025
+      },
+      {
+        "entity": "FAT",
+        "score": 0.2427,
+        "prevalence_cluster": 0.025
+      },
+      {
+        "entity": "FEV",
+        "score": 0.0707,
+        "prevalence_cluster": 0.013
+      }
+    ]
+  },
+  "32": {
+    "cluster_id": 32,
+    "n_notes": 128,
+    "top_entities": [
+      {
+        "entity": "ANX",
+        "score": 288.4905,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SSRI",
+        "score": 102.5407,
+        "prevalence_cluster": 0.148
+      },
+      {
+        "entity": "DEP",
+        "score": 51.8385,
+        "prevalence_cluster": 0.336
+      },
+      {
+        "entity": "DEM",
+        "score": 16.6589,
+        "prevalence_cluster": 0.039
+      },
+      {
+        "entity": "PALP",
+        "score": 2.0623,
+        "prevalence_cluster": 0.023
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.8889,
+        "prevalence_cluster": 0.008
+      },
+      {
+        "entity": "SURG",
+        "score": 0.7455,
+        "prevalence_cluster": 0.109
+      },
+      {
+        "entity": "WTCHG",
+        "score": 0.4831,
+        "prevalence_cluster": 0.023
+      },
+      {
+        "entity": "FAT",
+        "score": 0.4389,
+        "prevalence_cluster": 0.031
+      },
+      {
+        "entity": "CP",
+        "score": 0.3502,
+        "prevalence_cluster": 0.016
+      }
+    ]
+  },
+  "33": {
+    "cluster_id": 33,
+    "n_notes": 76,
+    "top_entities": [
+      {
+        "entity": "SOB",
+        "score": 51.2043,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SABA",
+        "score": 31.7627,
+        "prevalence_cluster": 0.066
+      },
+      {
+        "entity": "XR",
+        "score": 8.2546,
+        "prevalence_cluster": 0.25
+      },
+      {
+        "entity": "CT",
+        "score": 6.5679,
+        "prevalence_cluster": 0.526
+      },
+      {
+        "entity": "SURG",
+        "score": 3.9405,
+        "prevalence_cluster": 0.447
+      },
+      {
+        "entity": "BX",
+        "score": 0.4615,
+        "prevalence_cluster": 0.053
+      },
+      {
+        "entity": "WTCHG",
+        "score": 0.1356,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "MRI",
+        "score": 0.1115,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "HTN",
+        "score": 0.0636,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.0616,
+        "prevalence_cluster": 0.013
+      }
+    ]
+  },
+  "34": {
+    "cluster_id": 34,
+    "n_notes": 44,
+    "top_entities": [
+      {
+        "entity": "HEME",
+        "score": 228.5283,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "BX",
+        "score": 12.7193,
+        "prevalence_cluster": 0.591
+      },
+      {
+        "entity": "CANCER",
+        "score": 6.86,
+        "prevalence_cluster": 0.386
+      },
+      {
+        "entity": "EDEMA",
+        "score": 4.1505,
+        "prevalence_cluster": 0.295
+      },
+      {
+        "entity": "CT",
+        "score": 2.6832,
+        "prevalence_cluster": 0.318
+      },
+      {
+        "entity": "MRI",
+        "score": 1.4129,
+        "prevalence_cluster": 0.159
+      },
+      {
+        "entity": "WTCHG",
+        "score": 0.7425,
+        "prevalence_cluster": 0.045
+      },
+      {
+        "entity": "SURG",
+        "score": 0.6817,
+        "prevalence_cluster": 0.136
+      },
+      {
+        "entity": "FX",
+        "score": 0.1801,
+        "prevalence_cluster": 0.023
+      },
+      {
+        "entity": "DM",
+        "score": 0.169,
+        "prevalence_cluster": 0.023
+      }
+    ]
+  },
+  "35": {
+    "cluster_id": 35,
+    "n_notes": 57,
+    "top_entities": [
+      {
+        "entity": "ARTH",
+        "score": 270.1168,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 4.1539,
+        "prevalence_cluster": 0.298
+      },
+      {
+        "entity": "EDEMA",
+        "score": 4.1418,
+        "prevalence_cluster": 0.298
+      },
+      {
+        "entity": "INF",
+        "score": 1.5691,
+        "prevalence_cluster": 0.088
+      },
+      {
+        "entity": "US",
+        "score": 1.5469,
+        "prevalence_cluster": 0.105
+      },
+      {
+        "entity": "SURG",
+        "score": 1.4702,
+        "prevalence_cluster": 0.228
+      },
+      {
+        "entity": "FEV",
+        "score": 1.2656,
+        "prevalence_cluster": 0.088
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.886,
+        "prevalence_cluster": 0.018
+      },
+      {
+        "entity": "T2DM",
+        "score": 0.765,
+        "prevalence_cluster": 0.018
+      },
+      {
+        "entity": "BX",
+        "score": 0.6153,
+        "prevalence_cluster": 0.07
+      }
+    ]
+  },
+  "36": {
+    "cluster_id": 36,
+    "n_notes": 33,
+    "top_entities": [
+      {
+        "entity": "ENDO",
+        "score": 54.3102,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "BX",
+        "score": 22.6561,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 6.7582,
+        "prevalence_cluster": 0.515
+      },
+      {
+        "entity": "SURG",
+        "score": 5.8353,
+        "prevalence_cluster": 0.727
+      },
+      {
+        "entity": "CT",
+        "score": 4.3753,
+        "prevalence_cluster": 0.455
+      },
+      {
+        "entity": "CANCER",
+        "score": 0.6952,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "US",
+        "score": 0.1586,
+        "prevalence_cluster": 0.03
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "37": {
+    "cluster_id": 37,
+    "n_notes": 37,
+    "top_entities": [
+      {
+        "entity": "NV",
+        "score": 36.8439,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "US",
+        "score": 28.4049,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 4.356,
+        "prevalence_cluster": 0.459
+      },
+      {
+        "entity": "SURG",
+        "score": 1.4746,
+        "prevalence_cluster": 0.27
+      },
+      {
+        "entity": "MRI",
+        "score": 0.4335,
+        "prevalence_cluster": 0.081
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.0798,
+        "prevalence_cluster": 0.027
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "38": {
+    "cluster_id": 38,
+    "n_notes": 83,
+    "top_entities": [
+      {
+        "entity": "HTN",
+        "score": 31.9157,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DEM",
+        "score": 1.9877,
+        "prevalence_cluster": 0.012
+      },
+      {
+        "entity": "SURG",
+        "score": 1.4529,
+        "prevalence_cluster": 0.217
+      },
+      {
+        "entity": "ENDO",
+        "score": 0.123,
+        "prevalence_cluster": 0.012
+      },
+      {
+        "entity": "MRI",
+        "score": 0.0322,
+        "prevalence_cluster": 0.012
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "39": {
+    "cluster_id": 39,
+    "n_notes": 45,
+    "top_entities": [
+      {
+        "entity": "COLON",
+        "score": 180.5635,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CANCER",
+        "score": 11.7668,
+        "prevalence_cluster": 0.6
+      },
+      {
+        "entity": "BX",
+        "score": 3.4299,
+        "prevalence_cluster": 0.222
+      },
+      {
+        "entity": "CT",
+        "score": 3.4003,
+        "prevalence_cluster": 0.378
+      },
+      {
+        "entity": "SURG",
+        "score": 3.0647,
+        "prevalence_cluster": 0.4
+      },
+      {
+        "entity": "ENDO",
+        "score": 1.3607,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "FEV",
+        "score": 0.7442,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.6153,
+        "prevalence_cluster": 0.022
+      },
+      {
+        "entity": "HTN",
+        "score": 0.3406,
+        "prevalence_cluster": 0.044
+      },
+      {
+        "entity": "WTCHG",
+        "score": 0.229,
+        "prevalence_cluster": 0.022
+      }
+    ]
+  },
+  "40": {
+    "cluster_id": 40,
+    "n_notes": 51,
+    "top_entities": [
+      {
+        "entity": "XR",
+        "score": 44.0246,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 9.3159,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "NV",
+        "score": 3.8226,
+        "prevalence_cluster": 0.157
+      },
+      {
+        "entity": "CT",
+        "score": 0.7129,
+        "prevalence_cluster": 0.118
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "41": {
+    "cluster_id": 41,
+    "n_notes": 73,
+    "top_entities": [
+      {
+        "entity": "XR",
+        "score": 45.0802,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 0.2746,
+        "prevalence_cluster": 0.055
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "42": {
+    "cluster_id": 42,
+    "n_notes": 58,
+    "top_entities": [
+      {
+        "entity": "XR",
+        "score": 41.1837,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 8.584,
+        "prevalence_cluster": 0.724
+      },
+      {
+        "entity": "SURG",
+        "score": 7.7851,
+        "prevalence_cluster": 0.741
+      },
+      {
+        "entity": "HYPERT",
+        "score": 3.7102,
+        "prevalence_cluster": 0.017
+      },
+      {
+        "entity": "MRI",
+        "score": 0.5958,
+        "prevalence_cluster": 0.086
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "43": {
+    "cluster_id": 43,
+    "n_notes": 40,
+    "top_entities": [
+      {
+        "entity": "FEV",
+        "score": 35.4848,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "INF",
+        "score": 8.7864,
+        "prevalence_cluster": 0.325
+      },
+      {
+        "entity": "SURG",
+        "score": 6.7752,
+        "prevalence_cluster": 0.75
+      },
+      {
+        "entity": "BX",
+        "score": 1.5901,
+        "prevalence_cluster": 0.15
+      },
+      {
+        "entity": "CANCER",
+        "score": 1.2354,
+        "prevalence_cluster": 0.125
+      },
+      {
+        "entity": "MRI",
+        "score": 0.401,
+        "prevalence_cluster": 0.075
+      },
+      {
+        "entity": "CT",
+        "score": 0.054,
+        "prevalence_cluster": 0.025
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "44": {
+    "cluster_id": 44,
+    "n_notes": 78,
+    "top_entities": [
+      {
+        "entity": "FEV",
+        "score": 40.0191,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DM",
+        "score": 1.2324,
+        "prevalence_cluster": 0.064
+      },
+      {
+        "entity": "EDEMA",
+        "score": 1.1793,
+        "prevalence_cluster": 0.115
+      },
+      {
+        "entity": "COUGH",
+        "score": 1.0847,
+        "prevalence_cluster": 0.038
+      },
+      {
+        "entity": "ANX",
+        "score": 0.4623,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "CP",
+        "score": 0.1813,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "HA",
+        "score": 0.1468,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "SOB",
+        "score": 0.0966,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "45": {
+    "cluster_id": 45,
+    "n_notes": 50,
+    "top_entities": [
+      {
+        "entity": "DM",
+        "score": 44.2822,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 12.1831,
+        "prevalence_cluster": 0.02
+      },
+      {
+        "entity": "HYPERT",
+        "score": 4.3038,
+        "prevalence_cluster": 0.02
+      },
+      {
+        "entity": "DEM",
+        "score": 3.2996,
+        "prevalence_cluster": 0.02
+      },
+      {
+        "entity": "SURG",
+        "score": 2.1099,
+        "prevalence_cluster": 0.3
+      },
+      {
+        "entity": "HTN",
+        "score": 0.0967,
+        "prevalence_cluster": 0.02
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.0591,
+        "prevalence_cluster": 0.02
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "46": {
+    "cluster_id": 46,
+    "n_notes": 45,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 29.0767,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 15.9189,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.3853,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 6.8914,
+        "prevalence_cluster": 0.644
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "47": {
+    "cluster_id": 47,
+    "n_notes": 35,
+    "top_entities": [
+      {
+        "entity": "INF",
+        "score": 35.7751,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.5233,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.0844,
+        "prevalence_cluster": 0.029
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "48": {
+    "cluster_id": 48,
+    "n_notes": 95,
+    "top_entities": [
+      {
+        "entity": "BP",
+        "score": 138.7931,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 54.0037,
+        "prevalence_cluster": 0.063
+      },
+      {
+        "entity": "MRI",
+        "score": 11.7621,
+        "prevalence_cluster": 0.632
+      },
+      {
+        "entity": "SURG",
+        "score": 4.4824,
+        "prevalence_cluster": 0.474
+      },
+      {
+        "entity": "FAT",
+        "score": 1.5419,
+        "prevalence_cluster": 0.074
+      },
+      {
+        "entity": "FX",
+        "score": 1.171,
+        "prevalence_cluster": 0.053
+      },
+      {
+        "entity": "OST",
+        "score": 1.0632,
+        "prevalence_cluster": 0.011
+      },
+      {
+        "entity": "CT",
+        "score": 1.0381,
+        "prevalence_cluster": 0.126
+      },
+      {
+        "entity": "NSAID",
+        "score": 0.9738,
+        "prevalence_cluster": 0.011
+      },
+      {
+        "entity": "APAP",
+        "score": 0.5441,
+        "prevalence_cluster": 0.011
+      }
+    ]
+  },
+  "49": {
+    "cluster_id": 49,
+    "n_notes": 77,
+    "top_entities": [
+      {
+        "entity": "NV",
+        "score": 43.5204,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 11.4649,
+        "prevalence_cluster": 0.818
+      },
+      {
+        "entity": "FEV",
+        "score": 7.6441,
+        "prevalence_cluster": 0.299
+      },
+      {
+        "entity": "SURG",
+        "score": 4.4122,
+        "prevalence_cluster": 0.506
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "50": {
+    "cluster_id": 50,
+    "n_notes": 33,
+    "top_entities": [
+      {
+        "entity": "NV",
+        "score": 35.5562,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 8.9903,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "51": {
+    "cluster_id": 51,
+    "n_notes": 80,
+    "top_entities": [
+      {
+        "entity": "NV",
+        "score": 45.2086,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 1.2331,
+        "prevalence_cluster": 0.188
+      },
+      {
+        "entity": "US",
+        "score": 0.0654,
+        "prevalence_cluster": 0.012
+      },
+      {
+        "entity": "MRI",
+        "score": 0.0334,
+        "prevalence_cluster": 0.012
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "52": {
+    "cluster_id": 52,
+    "n_notes": 37,
+    "top_entities": [
+      {
+        "entity": "BX",
+        "score": 20.2302,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 11.5642,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "53": {
+    "cluster_id": 53,
+    "n_notes": 55,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 30.6648,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 12.6444,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 2.6854,
+        "prevalence_cluster": 0.382
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "54": {
+    "cluster_id": 54,
+    "n_notes": 45,
+    "top_entities": [
+      {
+        "entity": "HA",
+        "score": 66.1986,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 17.8391,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 1.8177,
+        "prevalence_cluster": 0.267
+      },
+      {
+        "entity": "CT",
+        "score": 1.4341,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.3939,
+        "prevalence_cluster": 0.067
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "55": {
+    "cluster_id": 55,
+    "n_notes": 98,
+    "top_entities": [
+      {
+        "entity": "HA",
+        "score": 100.7734,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "NV",
+        "score": 16.9408,
+        "prevalence_cluster": 0.418
+      },
+      {
+        "entity": "DIZ",
+        "score": 14.3522,
+        "prevalence_cluster": 0.122
+      },
+      {
+        "entity": "ANX",
+        "score": 7.7274,
+        "prevalence_cluster": 0.071
+      },
+      {
+        "entity": "DEP",
+        "score": 5.3769,
+        "prevalence_cluster": 0.071
+      },
+      {
+        "entity": "FEV",
+        "score": 4.6769,
+        "prevalence_cluster": 0.194
+      },
+      {
+        "entity": "FAT",
+        "score": 3.8607,
+        "prevalence_cluster": 0.153
+      },
+      {
+        "entity": "MRI",
+        "score": 3.7009,
+        "prevalence_cluster": 0.255
+      },
+      {
+        "entity": "CT",
+        "score": 3.4161,
+        "prevalence_cluster": 0.306
+      },
+      {
+        "entity": "WTCHG",
+        "score": 1.7714,
+        "prevalence_cluster": 0.061
+      }
+    ]
+  },
+  "56": {
+    "cluster_id": 56,
+    "n_notes": 33,
+    "top_entities": [
+      {
+        "entity": "HA",
+        "score": 69.9448,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "NV",
+        "score": 38.4846,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 8.8461,
+        "prevalence_cluster": 0.606
+      },
+      {
+        "entity": "DEM",
+        "score": 4.9994,
+        "prevalence_cluster": 0.03
+      },
+      {
+        "entity": "FEV",
+        "score": 1.0148,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "CT",
+        "score": 0.7345,
+        "prevalence_cluster": 0.121
+      },
+      {
+        "entity": "HTN",
+        "score": 0.4645,
+        "prevalence_cluster": 0.061
+      },
+      {
+        "entity": "SURG",
+        "score": 0.4439,
+        "prevalence_cluster": 0.121
+      },
+      {
+        "entity": "ENDO",
+        "score": 0.3092,
+        "prevalence_cluster": 0.03
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "57": {
+    "cluster_id": 57,
+    "n_notes": 42,
+    "top_entities": [
+      {
+        "entity": "FAT",
+        "score": 34.1385,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.4782,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 3.8194,
+        "prevalence_cluster": 0.357
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "58": {
+    "cluster_id": 58,
+    "n_notes": 46,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 29.8401,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 11.2275,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "HYPERT",
+        "score": 4.6781,
+        "prevalence_cluster": 0.022
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "59": {
+    "cluster_id": 59,
+    "n_notes": 39,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 28.4049,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 18.1652,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 2.8667,
+        "prevalence_cluster": 0.436
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "60": {
+    "cluster_id": 60,
+    "n_notes": 39,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 30.7939,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 15.7924,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.0758,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "SURG",
+        "score": 0.0404,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "61": {
+    "cluster_id": 61,
+    "n_notes": 75,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 34.0664,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.2636,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "62": {
+    "cluster_id": 62,
+    "n_notes": 33,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 35.6345,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 14.9317,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 3.4087,
+        "prevalence_cluster": 0.455
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "63": {
+    "cluster_id": 63,
+    "n_notes": 276,
+    "top_entities": [
+      {
+        "entity": "US",
+        "score": 46.9934,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 0.701,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "64": {
+    "cluster_id": 64,
+    "n_notes": 121,
+    "top_entities": [
+      {
+        "entity": "INF",
+        "score": 53.3337,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SSRI",
+        "score": 1.113,
+        "prevalence_cluster": 0.008
+      },
+      {
+        "entity": "EDEMA",
+        "score": 1.0226,
+        "prevalence_cluster": 0.091
+      },
+      {
+        "entity": "SURG",
+        "score": 0.7066,
+        "prevalence_cluster": 0.107
+      },
+      {
+        "entity": "PNA",
+        "score": 0.2161,
+        "prevalence_cluster": 0.008
+      },
+      {
+        "entity": "ECHO",
+        "score": 0.135,
+        "prevalence_cluster": 0.008
+      },
+      {
+        "entity": "FX",
+        "score": 0.0655,
+        "prevalence_cluster": 0.008
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "65": {
+    "cluster_id": 65,
+    "n_notes": 45,
+    "top_entities": [
+      {
+        "entity": "INF",
+        "score": 38.6471,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 8.8082,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "66": {
+    "cluster_id": 66,
+    "n_notes": 76,
+    "top_entities": [
+      {
+        "entity": "FAT",
+        "score": 39.3642,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 20.3975,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 4.5677,
+        "prevalence_cluster": 0.513
+      },
+      {
+        "entity": "BX",
+        "score": 0.8369,
+        "prevalence_cluster": 0.079
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "67": {
+    "cluster_id": 67,
+    "n_notes": 77,
+    "top_entities": [
+      {
+        "entity": "FAT",
+        "score": 42.9979,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 0.028,
+        "prevalence_cluster": 0.013
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "68": {
+    "cluster_id": 68,
+    "n_notes": 34,
+    "top_entities": [
+      {
+        "entity": "FAT",
+        "score": 39.7396,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 14.0306,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 8.9582,
+        "prevalence_cluster": 0.029
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "69": {
+    "cluster_id": 69,
+    "n_notes": 30,
+    "top_entities": [
+      {
+        "entity": "ENDO",
+        "score": 59.264,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CANCER",
+        "score": 20.7469,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 5.9905,
+        "prevalence_cluster": 0.7
+      },
+      {
+        "entity": "BX",
+        "score": 2.1201,
+        "prevalence_cluster": 0.2
+      },
+      {
+        "entity": "CT",
+        "score": 1.8246,
+        "prevalence_cluster": 0.267
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "70": {
+    "cluster_id": 70,
+    "n_notes": 191,
+    "top_entities": [
+      {
+        "entity": "ENDO",
+        "score": 90.0748,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SABA",
+        "score": 12.6386,
+        "prevalence_cluster": 0.026
+      },
+      {
+        "entity": "SURG",
+        "score": 7.3955,
+        "prevalence_cluster": 0.607
+      },
+      {
+        "entity": "CT",
+        "score": 4.8158,
+        "prevalence_cluster": 0.356
+      },
+      {
+        "entity": "INF",
+        "score": 1.2533,
+        "prevalence_cluster": 0.052
+      },
+      {
+        "entity": "BX",
+        "score": 0.7796,
+        "prevalence_cluster": 0.058
+      },
+      {
+        "entity": "MET",
+        "score": 0.7793,
+        "prevalence_cluster": 0.005
+      },
+      {
+        "entity": "MRI",
+        "score": 0.6395,
+        "prevalence_cluster": 0.063
+      },
+      {
+        "entity": "US",
+        "score": 0.5895,
+        "prevalence_cluster": 0.031
+      },
+      {
+        "entity": "NV",
+        "score": 0.2275,
+        "prevalence_cluster": 0.016
+      }
+    ]
+  },
+  "71": {
+    "cluster_id": 71,
+    "n_notes": 40,
+    "top_entities": [
+      {
+        "entity": "ENDO",
+        "score": 58.2861,
+        "prevalence_cluster": 0.975
+      },
+      {
+        "entity": "CANCER",
+        "score": 28.131,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 6.7752,
+        "prevalence_cluster": 0.75
+      },
+      {
+        "entity": "CT",
+        "score": 5.7636,
+        "prevalence_cluster": 0.575
+      },
+      {
+        "entity": "BX",
+        "score": 5.664,
+        "prevalence_cluster": 0.375
+      },
+      {
+        "entity": "US",
+        "score": 0.7852,
+        "prevalence_cluster": 0.075
+      },
+      {
+        "entity": "MRI",
+        "score": 0.401,
+        "prevalence_cluster": 0.075
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "72": {
+    "cluster_id": 72,
+    "n_notes": 40,
+    "top_entities": [
+      {
+        "entity": "BX",
+        "score": 20.6149,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 17.2256,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 9.7621,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 0.054,
+        "prevalence_cluster": 0.025
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "73": {
+    "cluster_id": 73,
+    "n_notes": 38,
+    "top_entities": [
+      {
+        "entity": "BX",
+        "score": 20.3615,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 15.9313,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 9.7931,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "74": {
+    "cluster_id": 74,
+    "n_notes": 246,
+    "top_entities": [
+      {
+        "entity": "CT",
+        "score": 18.188,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.5631,
+        "prevalence_cluster": 0.049
+      },
+      {
+        "entity": "SURG",
+        "score": 0.0064,
+        "prevalence_cluster": 0.004
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "75": {
+    "cluster_id": 75,
+    "n_notes": 37,
+    "top_entities": [
+      {
+        "entity": "CANCER",
+        "score": 20.2083,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 11.4085,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 9.5328,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "76": {
+    "cluster_id": 76,
+    "n_notes": 39,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 16.319,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 14.7675,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 9.2388,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "77": {
+    "cluster_id": 77,
+    "n_notes": 199,
+    "top_entities": [
+      {
+        "entity": "BX",
+        "score": 32.0805,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 1.3521,
+        "prevalence_cluster": 0.166
+      },
+      {
+        "entity": "CT",
+        "score": 0.2751,
+        "prevalence_cluster": 0.04
+      },
+      {
+        "entity": "MRI",
+        "score": 0.2263,
+        "prevalence_cluster": 0.03
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.0148,
+        "prevalence_cluster": 0.005
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "78": {
+    "cluster_id": 78,
+    "n_notes": 33,
+    "top_entities": [
+      {
+        "entity": "CANCER",
+        "score": 23.4348,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 14.7675,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DEM",
+        "score": 4.9994,
+        "prevalence_cluster": 0.03
+      },
+      {
+        "entity": "SURG",
+        "score": 4.1633,
+        "prevalence_cluster": 0.576
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "79": {
+    "cluster_id": 79,
+    "n_notes": 31,
+    "top_entities": [
+      {
+        "entity": "MRI",
+        "score": 13.7134,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 11.0715,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 9.8251,
+        "prevalence_cluster": 0.032
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "80": {
+    "cluster_id": 80,
+    "n_notes": 83,
+    "top_entities": [
+      {
+        "entity": "BX",
+        "score": 24.8079,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 11.5476,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "81": {
+    "cluster_id": 81,
+    "n_notes": 34,
+    "top_entities": [
+      {
+        "entity": "CT",
+        "score": 13.23,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 8.1536,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "82": {
+    "cluster_id": 82,
+    "n_notes": 96,
+    "top_entities": [
+      {
+        "entity": "BX",
+        "score": 29.1291,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CANCER",
+        "score": 27.5648,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 3.1727,
+        "prevalence_cluster": 0.01
+      },
+      {
+        "entity": "MRI",
+        "score": 0.8483,
+        "prevalence_cluster": 0.083
+      },
+      {
+        "entity": "CT",
+        "score": 0.7,
+        "prevalence_cluster": 0.094
+      },
+      {
+        "entity": "SURG",
+        "score": 0.6478,
+        "prevalence_cluster": 0.115
+      },
+      {
+        "entity": "ENDO",
+        "score": 0.1063,
+        "prevalence_cluster": 0.01
+      },
+      {
+        "entity": "EDEMA",
+        "score": 0.0308,
+        "prevalence_cluster": 0.01
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "83": {
+    "cluster_id": 83,
+    "n_notes": 37,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 16.5004,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.2385,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "84": {
+    "cluster_id": 84,
+    "n_notes": 77,
+    "top_entities": [
+      {
+        "entity": "MRI",
+        "score": 20.661,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 13.6845,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 3.8019,
+        "prevalence_cluster": 0.442
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "85": {
+    "cluster_id": 85,
+    "n_notes": 67,
+    "top_entities": [
+      {
+        "entity": "MRI",
+        "score": 17.2256,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 12.2093,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "86": {
+    "cluster_id": 86,
+    "n_notes": 91,
+    "top_entities": [
+      {
+        "entity": "MRI",
+        "score": 18.4659,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.893,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 3.347,
+        "prevalence_cluster": 0.011
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "87": {
+    "cluster_id": 87,
+    "n_notes": 88,
+    "top_entities": [
+      {
+        "entity": "MRI",
+        "score": 20.8561,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.5233,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "88": {
+    "cluster_id": 88,
+    "n_notes": 329,
+    "top_entities": [
+      {
+        "entity": "DEM",
+        "score": 27.6921,
+        "prevalence_cluster": 0.04
+      },
+      {
+        "entity": "MRI",
+        "score": 24.4487,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 0.9258,
+        "prevalence_cluster": 0.003
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "89": {
+    "cluster_id": 89,
+    "n_notes": 833,
+    "top_entities": [
+      {
+        "entity": "SURG",
+        "score": 16.7681,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "PD",
+        "score": 1.1591,
+        "prevalence_cluster": 0.002
+      },
+      {
+        "entity": "HYPERT",
+        "score": 0.2583,
+        "prevalence_cluster": 0.001
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "90": {
+    "cluster_id": 90,
+    "n_notes": 44,
+    "top_entities": [
+      {
+        "entity": "CT",
+        "score": 11.8541,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 11.6314,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "91": {
+    "cluster_id": 91,
+    "n_notes": 83,
+    "top_entities": [
+      {
+        "entity": "CT",
+        "score": 14.2458,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 11.8156,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DEM",
+        "score": 1.9877,
+        "prevalence_cluster": 0.012
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "92": {
+    "cluster_id": 92,
+    "n_notes": 123,
+    "top_entities": [
+      {
+        "entity": "CT",
+        "score": 15.4106,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 11.26,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "93": {
+    "cluster_id": 93,
+    "n_notes": 34,
+    "top_entities": [
+      {
+        "entity": "INF",
+        "score": 38.8529,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 20.6476,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 1.1763,
+        "prevalence_cluster": 0.235
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "94": {
+    "cluster_id": 94,
+    "n_notes": 33,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 43.5252,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 16.2253,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 0.0478,
+        "prevalence_cluster": 0.03
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "95": {
+    "cluster_id": 95,
+    "n_notes": 54,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 48.4125,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 11.4309,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "HYPERT",
+        "score": 3.985,
+        "prevalence_cluster": 0.019
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "96": {
+    "cluster_id": 96,
+    "n_notes": 49,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 17.5913,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 15.9189,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "97": {
+    "cluster_id": 97,
+    "n_notes": 51,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 48.5771,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 9.6667,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "98": {
+    "cluster_id": 98,
+    "n_notes": 88,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 20.3343,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.8548,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "DEM",
+        "score": 1.8748,
+        "prevalence_cluster": 0.011
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "99": {
+    "cluster_id": 99,
+    "n_notes": 34,
+    "top_entities": [
+      {
+        "entity": "CANCER",
+        "score": 25.4023,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 8.8551,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "100": {
+    "cluster_id": 100,
+    "n_notes": 62,
+    "top_entities": [
+      {
+        "entity": "CANCER",
+        "score": 24.4405,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.0815,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "101": {
+    "cluster_id": 101,
+    "n_notes": 77,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 24.5866,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "BX",
+        "score": 24.0062,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 1.0884,
+        "prevalence_cluster": 0.169
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "102": {
+    "cluster_id": 102,
+    "n_notes": 380,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 29.4133,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "MRI",
+        "score": 0.007,
+        "prevalence_cluster": 0.003
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "103": {
+    "cluster_id": 103,
+    "n_notes": 44,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 22.7093,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 11.8541,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 2.5885,
+        "prevalence_cluster": 0.386
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "104": {
+    "cluster_id": 104,
+    "n_notes": 36,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 21.4692,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 8.5044,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "105": {
+    "cluster_id": 105,
+    "n_notes": 45,
+    "top_entities": [
+      {
+        "entity": "EDEMA",
+        "score": 20.0737,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 9.3159,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "106": {
+    "cluster_id": 106,
+    "n_notes": 62,
+    "top_entities": [
+      {
+        "entity": "CANCER",
+        "score": 31.4989,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "BX",
+        "score": 14.2084,
+        "prevalence_cluster": 0.677
+      },
+      {
+        "entity": "SURG",
+        "score": 5.1071,
+        "prevalence_cluster": 0.597
+      },
+      {
+        "entity": "CT",
+        "score": 3.9729,
+        "prevalence_cluster": 0.387
+      },
+      {
+        "entity": "MRI",
+        "score": 0.1367,
+        "prevalence_cluster": 0.032
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "107": {
+    "cluster_id": 107,
+    "n_notes": 141,
+    "top_entities": [
+      {
+        "entity": "CANCER",
+        "score": 31.4068,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "APAP",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "108": {
+    "cluster_id": 108,
+    "n_notes": 31,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 58.1713,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "EDEMA",
+        "score": 15.7233,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "109": {
+    "cluster_id": 109,
+    "n_notes": 30,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 57.5922,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "CT",
+        "score": 10.7924,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "110": {
+    "cluster_id": 110,
+    "n_notes": 64,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 61.6184,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 10.6321,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "111": {
+    "cluster_id": 111,
+    "n_notes": 188,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 69.6477,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "APAP",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  },
+  "112": {
+    "cluster_id": 112,
+    "n_notes": 36,
+    "top_entities": [
+      {
+        "entity": "FX",
+        "score": 62.7129,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "SURG",
+        "score": 8.2766,
+        "prevalence_cluster": 1.0
+      },
+      {
+        "entity": "ACE",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AFIB",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMOX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "AMS",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANOR",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTICOAG",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANTIPSY",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      },
+      {
+        "entity": "ANX",
+        "score": 0.0,
+        "prevalence_cluster": 0.0
+      }
+    ]
+  }
+}
