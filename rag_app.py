@@ -181,6 +181,29 @@ clusters_df, umap_df, mentions, profiles, notes = (
 note_ents, idf, vocab = build_retrieval_index()
 key = get_key()
 
+# note_id -> cluster label lookup (so retrieved notes can show their phenotype)
+if not clusters_df.empty:
+    NOTE2CLUSTER = dict(zip(clusters_df["note_id"], clusters_df["cluster"].astype(int)))
+else:
+    NOTE2CLUSTER = {}
+
+def cluster_label(nid):
+    """Human-readable cluster label for a note id."""
+    c = NOTE2CLUSTER.get(str(nid))
+    if c is None:
+        return "unassigned"
+    if c == -1:
+        return "noise (unclustered)"
+    return f"cluster {c}"
+
+def cluster_top_entities(c, n=4):
+    """Top entities for a cluster, from phenotype_profiles.json."""
+    p = profiles.get(str(c)) if profiles else None
+    if not p:
+        return ""
+    tops = [e.get("entity", "") for e in p.get("top_entities", [])[:n]]
+    return ", ".join(t for t in tops if t)
+
 n_notes = clusters_df["note_id"].nunique() if not clusters_df.empty else len(notes)
 if not clusters_df.empty:
     lab = clusters_df["cluster"].astype(int)
@@ -337,8 +360,21 @@ with tab_rag:
                 st.markdown("### Answer"); st.markdown(resp)
                 st.markdown("**Source notes:** " + ", ".join(str(n) for n, _ in hits))
                 st.markdown("### Retrieved evidence")
+                # summarise which phenotypes the retrieved notes belong to
+                _cl = [NOTE2CLUSTER.get(str(n), None) for n, _ in hits]
+                _named = [c for c in _cl if c is not None and c != -1]
+                if _named:
+                    from collections import Counter
+                    dist = ", ".join(f"cluster {c} ({k})" for c, k in Counter(_named).most_common())
+                    st.caption(f"Phenotype distribution of retrieved notes: {dist}")
                 for nid, sc in hits:
-                    with st.expander(f"note {nid} · score {sc}"):
+                    lbl = cluster_label(nid)
+                    with st.expander(f"note {nid} · {lbl} · score {sc}"):
+                        c = NOTE2CLUSTER.get(str(nid))
+                        if c is not None and c != -1:
+                            tops = cluster_top_entities(c)
+                            if tops:
+                                st.caption(f"Phenotype profile ({lbl}): {tops}")
                         st.write(notes.get(nid, ""))
 
 # ── Sidebar (display controls, not live pipeline) ─────────────────────────────
